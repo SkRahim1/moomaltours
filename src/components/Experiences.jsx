@@ -56,7 +56,7 @@ export default function Experiences() {
               
               <div className="experiences-visual-frame">
                 <img 
-                  src="/camel_sunset.png" 
+                  src={`${import.meta.env.BASE_URL}camel_sunset.png`} 
                   alt="Twilight Camel Caravan" 
                   className="experiences-visual-img"
                 />

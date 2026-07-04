@@ -68,7 +68,7 @@ export default function Destinations() {
                 {/* Image Container with Zoom effect */}
                 <div className="dest-image-wrapper">
                   <img 
-                    src={dest.img} 
+                    src={`${import.meta.env.BASE_URL}${dest.img.slice(1)}`} 
                     alt={dest.subtitle}
                     className="dest-img"
                   />

@@ -91,7 +91,7 @@ export default function Itineraries({ onSelectItinerary }) {
           <div className="itinerary-visual-card">
             <div className="itinerary-visual-ratio">
               <img 
-                src={activeItinerary.img} 
+                src={`${import.meta.env.BASE_URL}${activeItinerary.img.slice(1)}`} 
                 alt={activeItinerary.title}
                 className="itinerary-visual-img"
               />

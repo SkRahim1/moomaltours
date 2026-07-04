@@ -26,7 +26,7 @@ export default function Hero({ onOpenPlanner }) {
             className={`hero-bg-image-wrapper ${index === currentIdx ? 'active' : ''}`}
           >
             <img 
-              src={imgUrl} 
+              src={`${import.meta.env.BASE_URL}${imgUrl.slice(1)}`} 
               alt="Rajasthan Desert Landscape" 
               className="hero-bg-image"
             />

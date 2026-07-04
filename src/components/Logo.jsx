@@ -5,7 +5,7 @@ export default function Logo({ isDarkHeader }) {
 
   useEffect(() => {
     const img = new Image();
-    img.src = '/logo.png';
+    img.src = `${import.meta.env.BASE_URL}logo.png`;
     img.onload = () => {
       const canvas = document.createElement('canvas');
       canvas.width = img.width;
@@ -110,7 +110,7 @@ export default function Logo({ isDarkHeader }) {
 
   return (
     <img 
-      src={processedLogoUrl || '/logo.png'} 
+      src={processedLogoUrl || `${import.meta.env.BASE_URL}logo.png`} 
       alt="Moomal Tours Logo" 
       className="logo-img"
       style={!processedLogoUrl ? { backgroundColor: 'white', padding: '4px' } : {}}
