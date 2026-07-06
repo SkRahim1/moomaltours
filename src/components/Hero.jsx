@@ -53,18 +53,18 @@ export default function Hero({ onOpenPlanner }) {
         </p>
 
         <div className="hero-actions">
-          <button 
-            onClick={onOpenPlanner}
+          <a 
+            href="#/build-your-tour"
             className="btn-primary"
-            style={{ flex: 1 }}
+            style={{ flex: 1, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
           >
             Design Your Journey
-          </button>
+          </a>
           
           <a 
             href="#itineraries" 
             className="hero-btn-outline"
-            style={{ flex: 1 }}
+            style={{ flex: 1, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}
           >
             Explore Itineraries
           </a>

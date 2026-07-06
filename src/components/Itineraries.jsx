@@ -137,12 +137,7 @@ export default function Itineraries({ onSelectItinerary }) {
             </div>
 
             {/* CTA and Price Panel */}
-            <div className="itinerary-cta-panel">
-              <div>
-                <span className="price-label">Estimated Cost</span>
-                <span className="price-value">{activeItinerary.priceEstimate}</span>
-              </div>
-              
+            <div className="itinerary-cta-panel" style={{ justifyContent: 'center' }}>
               <button 
                 onClick={() => onSelectItinerary(activeItinerary.vibe)}
                 className="btn-primary"
