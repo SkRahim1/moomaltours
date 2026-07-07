@@ -24,17 +24,20 @@ const PACKAGES_DATA = {
       {
         day: 1,
         title: 'Arrival & Romantic Sightseeing',
-        desc: 'Meet our driver at the Jaisalmer airport or railway station for a warm welcome. Transfer to your boutique heritage haveli hotel. After relaxing, take a private tour of Gadisar Lake for a peaceful sunset boat ride, followed by a visit to the Golden Fort and a candlelight complimentary dinner by Moomal Tours.'
+        desc: 'Meet our driver at the Jaisalmer airport or railway station for a warm welcome. Transfer to your boutique heritage haveli hotel. After relaxing, take a private tour of Gadisar Lake for a peaceful sunset boat ride, followed by a visit to the Golden Fort and a candlelight complimentary dinner by Moomal Tours.',
+        img: '/gadisar_lake.png'
       },
       {
         day: 2,
         title: 'Desert Drive & Candlelight Dunes Dinner',
-        desc: 'After breakfast, check out and drive towards the Sam Sand Dunes. On the way, tour the ruins of Kuldhara and Khaba Fort. Check in at our luxury desert camp with a royal Rajasthani welcome. In the evening, ride your private camel into a secluded dune spot. Sit on rich carpets and enjoy sunset high tea, followed by live folk music, Kalbelia dance, and a gourmet candlelight dinner under the stars.'
+        desc: 'After breakfast, check out and drive towards the Sam Sand Dunes. On the way, tour the ruins of Kuldhara and Khaba Fort. Check in at our luxury desert camp with a royal Rajasthani welcome. In the evening, ride your private camel into a secluded dune spot. Sit on rich carpets and enjoy sunset high tea, followed by live folk music, Kalbelia dance, and a gourmet candlelight dinner under the stars.',
+        img: '/guest_dunes_dinner.png'
       },
       {
         day: 3,
         title: 'Sunrise Caravan & Departure',
-        desc: 'Enjoy a magical sunrise breakfast at the camp. Drive back to the city for some handicraft and souvenir shopping at Sadar Bazaar. Visit Patwon Ki Haveli and Salim Singh Haveli before our driver transfers you to the airport or railway station for your departure.'
+        desc: 'Enjoy a magical sunrise breakfast at the camp. Drive back to the city for some handicraft and souvenir shopping at Sadar Bazaar. Visit Patwon Ki Haveli and Salim Singh Haveli before our driver transfers you to the airport or railway station for your departure.',
+        img: '/guest_camel_ride.png'
       }
     ]
   },
@@ -60,17 +63,20 @@ const PACKAGES_DATA = {
       {
         day: 1,
         title: 'Airport Welcome & Fort Exploration',
-        desc: 'Receive a royal welcome with flowers at the airport or station. Transfer in a luxury SUV to your premium suite. Take a guided heritage walk of Jaisalmer Fort, exploring medieval alleys and Jain temples. Enjoy sunset tea at a rooftop cafe overlooking the fort, followed by a complimentary multi-course dinner.'
+        desc: 'Receive a royal welcome with flowers at the airport or station. Transfer in a luxury SUV to your premium suite. Take a guided heritage walk of Jaisalmer Fort, exploring medieval alleys and Jain temples. Enjoy sunset tea at a rooftop cafe overlooking the fort, followed by a complimentary multi-course dinner.',
+        img: '/guest_fort_walk.png'
       },
       {
         day: 2,
         title: 'Jeep Safari & Exclusive Dune Dinner',
-        desc: 'Savor breakfast in bed, then checkout for Sam Dunes. Take an off-road 4x4 Jeep Safari for thrilling dune bashing, followed by a private camel caravan. Arrive at a dedicated dune oasis decorated with lanterns. Enjoy a private folk music serenade and a candlelight dinner, then sleep in a flower-decorated luxury camp suite.'
+        desc: 'Savor breakfast in bed, then checkout for Sam Dunes. Take an off-road 4x4 Jeep Safari for thrilling dune bashing, followed by a private camel caravan. Arrive at a dedicated dune oasis decorated with lanterns. Enjoy a private folk music serenade and a candlelight dinner, then sleep in a flower-decorated luxury camp suite.',
+        img: '/jeep_safari.png'
       },
       {
         day: 3,
         title: 'Sunrise Breakfast & Departure',
-        desc: 'Watch the sunrise over the golden sands with fresh coffee and breakfast. Check out and return to the city. Have free time to visit Bada Bagh Cenotaphs for photos. Our SUV will drop you at the airport/station with a special souvenir gift from Moomal Tours.'
+        desc: 'Watch the sunrise over the golden sands with fresh coffee and breakfast. Check out and return to the city. Have free time to visit Bada Bagh Cenotaphs for photos. Our SUV will drop you at the airport/station with a special souvenir gift from Moomal Tours.',
+        img: '/camel_sunset.png'
       }
     ]
   },
@@ -89,24 +95,27 @@ const PACKAGES_DATA = {
       'Safe Camel Safari for kids and adults, plus an optional Jeep Safari.',
       'Guided historical tours of Jaisalmer Fort, Kuldhara, and Haveli.',
       'Cultural evening with traditional Rajasthani folk dances, fire show, and snacks.',
-      'MAP Plan: Multi-cuisine breakfasts and buffet gala dinners.',
+      'MAP Plan: Multi-cuisine breakfasts and gala dinners.',
       '24/7 dedicated support representative on-call.'
     ],
     itinerary: [
       {
         day: 1,
         title: 'Family Welcome & Sightseeing',
-        desc: 'Our representative greets your family at the station or airport. Check in to your spacious family room in the city. In the afternoon, visit Jaisalmer Fort (Sone Kila) and the lakeside. Kids can enjoy bird feeding and a boat ride. End the day with a delicious family dinner featuring local desserts.'
+        desc: 'Our representative greets your family at the station or airport. Check in to your spacious family room in the city. In the afternoon, visit Jaisalmer Fort (Sone Kila) and the lakeside. Kids can enjoy bird feeding and a boat ride. End the day with a delicious family dinner featuring local desserts.',
+        img: '/jaisalmer_fort_hero.png'
       },
       {
         day: 2,
         title: 'Kuldhara Village & Luxury Desert Camp',
-        desc: 'Check out and drive to Sam. Stop at the abandoned Kuldhara Ghost Village—a fascinating story that children love—and Khaba Fort. Check in at the desert camp with traditional red-carpet welcome, drum beats, and tikka. In the evening, do a family camel ride on the dunes, watch folk performances, and enjoy a rich Rajasthani buffet dinner.'
+        desc: 'Check out and drive to Sam. Stop at the abandoned Kuldhara Ghost Village—a fascinating story that children love—and Khaba Fort. Check in at the desert camp with traditional red-carpet welcome, drum beats, and tikka. In the evening, do a family camel ride on the dunes, watch folk performances, and enjoy a rich Rajasthani buffet dinner.',
+        img: '/guest_camp_bonfire.png'
       },
       {
         day: 3,
         title: 'Desert Sunrise & Departure',
-        desc: 'Wake up to the cool desert breeze. Have a hearty breakfast at camp and check out. Return to Jaisalmer city. Visit Patwon Ki Haveli and shop for leather items, puppets, and spices. Private transfer to the airport or station for departure.'
+        desc: 'Wake up to the cool desert breeze. Have a hearty breakfast at camp and check out. Return to Jaisalmer city. Visit Patwon Ki Haveli and shop for leather items, puppets, and spices. Private transfer to the airport or station for departure.',
+        img: '/haveli_heritage.png'
       }
     ]
   },
@@ -132,17 +141,20 @@ const PACKAGES_DATA = {
       {
         day: 1,
         title: 'Arrival, Fort Walk & Rooftop Vibe',
-        desc: 'Group arrival at Jaisalmer station/airport. Check-in to your city hotel. Take a walking tour inside the fort walls, checking out hidden street art and historic viewpoints. Head to a rooftop cafe for sunset mocktails and a group dinner with stunning views of the illuminated fort.'
+        desc: 'Group arrival at Jaisalmer station/airport. Check-in to your city hotel. Take a walking tour inside the fort walls, checking out hidden street art and historic viewpoints. Head to a rooftop cafe for sunset mocktails and a group dinner with stunning views of the illuminated fort.',
+        img: '/guest_fort_walk.png'
       },
       {
         day: 2,
         title: 'Dune Bashing, Quad Biking & Bonfire Night',
-        desc: 'Have breakfast and drive to Sam. En route, explore the abandoned ruins of Kuldhara. Check-in to the desert camp. Board a 4x4 jeep for high-speed dune bashing. Experience optional quad biking (at extra cost) on the high dunes. Return to the camp for a high-energy folk dance performance, followed by a private group bonfire under the stars.'
+        desc: 'Have breakfast and drive to Sam. En route, explore the abandoned ruins of Kuldhara. Check-in to the desert camp. Board a 4x4 jeep for high-speed dune bashing. Experience optional quad biking (at extra cost) on the high dunes. Return to the camp for a high-energy folk dance performance, followed by a private group bonfire under the stars.',
+        img: '/jeep_safari.png'
       },
       {
         day: 3,
         title: 'Dune Sunrise & Shopping Trails',
-        desc: 'Wake up early for photography in the golden morning light. Savor breakfast, check out, and head to Jaisalmer. Visit the Bada Bagh cenotaphs and spend time shopping for Rajasthani textiles and handicraft. Transfer to airport/station for departure.'
+        desc: 'Wake up early for photography in the golden morning light. Savor breakfast, check out, and head to Jaisalmer. Visit the Bada Bagh cenotaphs and spend time shopping for Rajasthani textiles and handicraft. Transfer to airport/station for departure.',
+        img: '/shopping_tours.png'
       }
     ]
   },
@@ -168,17 +180,20 @@ const PACKAGES_DATA = {
       {
         day: 1,
         title: 'Arrival & Team Ice-breaker',
-        desc: 'Group arrival. Transfer to the hotel/resort. Afternoon guided orientation walk inside Jaisalmer Fort, followed by team ice-breaker games at a scenic rooftop deck.'
+        desc: 'Group arrival. Transfer to the hotel/resort. Afternoon guided orientation walk inside Jaisalmer Fort, followed by team ice-breaker games at a scenic rooftop deck.',
+        img: '/jaisalmer_fort_hero.png'
       },
       {
         day: 2,
         title: 'Treasure Hunt & Gala Desert Night',
-        desc: 'After breakfast, drive to Kuldhara ruins for a team-building scavenger hunt. Drive to Sam Sand Dunes and check in at our luxury camp. Afternoon off-road Jeep Safari. Evening corporate gala, including local folk music, Kalbelia dances, awards/fun sessions, and a signature Rajasthani gala dinner.'
+        desc: 'After breakfast, drive to Kuldhara ruins for a team-building scavenger hunt. Drive to Sam Sand Dunes and check in at our luxury camp. Afternoon off-road Jeep Safari. Evening corporate gala, including local folk music, Kalbelia dances, awards/fun sessions, and a signature Rajasthani gala dinner.',
+        img: '/guest_camp_bonfire.png'
       },
       {
         day: 3,
         title: 'Breakfast & Airport Drop',
-        desc: 'Breakfast at the camp. Checkout and drive back to Jaisalmer for quick shopping. Group transfer to Jaisalmer airport or railway station.'
+        desc: 'Breakfast at the camp. Checkout and drive back to Jaisalmer for quick shopping. Group transfer to Jaisalmer airport or railway station.',
+        img: '/sam_sand_dunes.png'
       }
     ]
   },
@@ -204,37 +219,44 @@ const PACKAGES_DATA = {
       {
         day: 1,
         title: 'Jodhpur Arrival & Fort Tour',
-        desc: 'Arrive in Jodhpur. Welcome by Moomal Tours driver. Transfer to your heritage hotel. Visit the grand Mehrangarh Fort and Jaswant Thada cenotaph. Dinner in a heritage courtyard.'
+        desc: 'Arrive in Jodhpur. Welcome by Moomal Tours driver. Transfer to your heritage hotel. Visit the grand Mehrangarh Fort and Jaswant Thada cenotaph. Dinner in a heritage courtyard.',
+        img: '/haveli_heritage.png'
       },
       {
         day: 2,
         title: 'Drive to Udaipur (Lake Pichola)',
-        desc: 'Drive to Udaipur, visiting the famous Ranakpur Jain Temples on the way. Check in to your lakeside hotel in Udaipur. Enjoy a tranquil sunset boat ride on Lake Pichola.'
+        desc: 'Drive to Udaipur, visiting the famous Ranakpur Jain Temples on the way. Check in to your lakeside hotel in Udaipur. Enjoy a tranquil sunset boat ride on Lake Pichola.',
+        img: '/gadisar_lake.png'
       },
       {
         day: 3,
         title: 'Udaipur Palace & Lakes Exploration',
-        desc: 'Take a guided tour of the City Palace, Saheliyon-ki-Bari, and Jagdish Temple. Evening free for shopping around the old markets.'
+        desc: 'Take a guided tour of the City Palace, Saheliyon-ki-Bari, and Jagdish Temple. Evening free for shopping around the old markets.',
+        img: '/haveli_heritage.png'
       },
       {
         day: 4,
         title: 'Udaipur to Jaisalmer Drive',
-        desc: 'Drive from Udaipur to Jaisalmer. Arrive in the evening and check in to your golden sandstone hotel. Relax with a complimentary Rajasthani thali dinner.'
+        desc: 'Drive from Udaipur to Jaisalmer. Arrive in the evening and check in to your golden sandstone hotel. Relax with a complimentary Rajasthani thali dinner.',
+        img: '/jaisalmer_fort_hero.png'
       },
       {
         day: 5,
         title: 'Jaisalmer Sightseeing & Sand Dunes',
-        desc: 'Explore Jaisalmer Fort and Havelis. In the afternoon, drive to Sam Sand Dunes. Ride camels into the sunset, watch traditional folk performances, and overnight at luxury tents.'
+        desc: 'Explore Jaisalmer Fort and Havelis. In the afternoon, drive to Sam Sand Dunes. Ride camels into the sunset, watch traditional folk performances, and overnight at luxury tents.',
+        img: '/camel_sunset.png'
       },
       {
         day: 6,
         title: 'Kuldhara & Bada Bagh Tour',
-        desc: 'Check out of camp. Visit Kuldhara village, Khaba Fort, and Bada Bagh Cenotaphs. Return to Jaisalmer city for a relaxing overnight stay.'
+        desc: 'Check out of camp. Visit Kuldhara village, Khaba Fort, and Bada Bagh Cenotaphs. Return to Jaisalmer city for a relaxing overnight stay.',
+        img: '/guest_camel_ride.png'
       },
       {
         day: 7,
         title: 'Departure from Jodhpur/Jaisalmer',
-        desc: 'Breakfast at the hotel, check out, and transfer to Jaisalmer/Jodhpur airport or station for your departure.'
+        desc: 'Breakfast at the hotel, check out, and transfer to Jaisalmer/Jodhpur airport or station for your departure.',
+        img: '/sam_sand_dunes.png'
       }
     ]
   },
@@ -259,17 +281,20 @@ const PACKAGES_DATA = {
       {
         day: 1,
         title: 'Customized Day 1',
-        desc: 'Your custom arrival schedule, greeting, accommodation check-in, and sightseeing activities based on your selected package preferences.'
+        desc: 'Your custom arrival schedule, greeting, accommodation check-in, and sightseeing activities based on your selected package preferences.',
+        img: '/jaisalmer_fort_hero.png'
       },
       {
         day: 2,
         title: 'Customized Day 2',
-        desc: 'Bespoke Thar desert activities: optional camel caravan, candlelight dinner setup, jeep safaris, or off-the-beaten-path village explorations.'
+        desc: 'Bespoke Thar desert activities: optional camel caravan, candlelight dinner setup, jeep safaris, or off-the-beaten-path village explorations.',
+        img: '/camel_sunset.png'
       },
       {
         day: 3,
         title: 'Customized Day 3',
-        desc: 'Departure arrangements, shopping trails, flexible sightseeing timings, and private transfers matching your flight/train schedule.'
+        desc: 'Departure arrangements, shopping trails, flexible sightseeing timings, and private transfers matching your flight/train schedule.',
+        img: '/guest_camel_ride.png'
       }
     ]
   }
@@ -325,14 +350,25 @@ Please share availability and details.`;
               <h3 className="package-section-title">Day-by-Day Journey</h3>
               <div className="itinerary-timeline">
                 {pkg.itinerary.map((dayPlan) => (
-                  <div key={dayPlan.day} className="timeline-day-card">
+                  <div key={dayPlan.day} className="timeline-day-card" style={{ marginBottom: '32px' }}>
                     <div className="timeline-dot-wrapper">
                       <div className="timeline-dot"></div>
                       <span className="timeline-day-num">Day {dayPlan.day}</span>
                     </div>
                     <div className="timeline-day-content">
-                      <h4 className="timeline-day-title">{dayPlan.title}</h4>
-                      <p className="timeline-day-desc">{dayPlan.desc}</p>
+                      <h4 className="timeline-day-title" style={{ marginBottom: '12px' }}>{dayPlan.title}</h4>
+                      <div style={{ display: 'flex', gap: '24px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
+                        <p className="timeline-day-desc" style={{ flex: '1', minWidth: '250px', margin: 0 }}>{dayPlan.desc}</p>
+                        {dayPlan.img && (
+                          <div className="timeline-day-image-box" style={{ width: '220px', height: '130px', borderRadius: '8px', overflow: 'hidden', flexShrink: 0, boxShadow: 'var(--shadow-subtle)', border: '1px solid var(--color-border)' }}>
+                            <img 
+                              src={`${import.meta.env.BASE_URL}${dayPlan.img.slice(1)}`} 
+                              alt={dayPlan.title} 
+                              style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                            />
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}

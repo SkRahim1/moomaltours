@@ -5,6 +5,7 @@ const EXPERIENCES_DATA = {
   'private-desert-dinner': {
     title: 'Private Desert Dinner',
     category: 'Dining & Romance',
+    img: '/guest_dunes_dinner.png',
     desc: 'Dine in a private sand dunes oasis, completely secluded from others. A personal chef prepares hot charcoal kebabs and traditional Rajasthani dishes served on a candlelit low table.',
     pricing: 'From ₹4,500 / person',
     duration: '4 Hours (Evening)',
@@ -14,6 +15,7 @@ const EXPERIENCES_DATA = {
   'candlelight-dinner': {
     title: 'Candlelight Dinner at Camp',
     category: 'Dining & Romance',
+    img: '/guest_dunes_dinner.png',
     desc: 'A romantic candlelight dinner set up in a beautiful corner of our luxury desert resort, decorated with lanterns, fresh flowers, and aromatic candles.',
     pricing: 'From ₹2,500 / couple',
     duration: '2-3 Hours',
@@ -23,6 +25,7 @@ const EXPERIENCES_DATA = {
   'proposal-setup': {
     title: 'Romantic Proposal Setup',
     category: 'Dining & Romance',
+    img: '/camel_sunset.png',
     desc: 'Pop the question in the middle of the Thar desert with a spectacular flower arch, glowing "MARRY ME" letters, champagne, and musicians.',
     pricing: 'From ₹12,000 / setup',
     duration: '3-4 Hours',
@@ -32,6 +35,7 @@ const EXPERIENCES_DATA = {
   'anniversary-birthday': {
     title: 'Anniversary & Birthday Celebrations',
     category: 'Dining & Romance',
+    img: '/guest_camp_bonfire.png',
     desc: 'Celebrate milestone dates in royal style with decorated tents, private cake cutting, folk dances, and dedicated photo sessions.',
     pricing: 'From ₹3,500 / event',
     duration: 'Flexible',
@@ -41,6 +45,7 @@ const EXPERIENCES_DATA = {
   'luxury-camps': {
     title: 'Luxury Desert Camps',
     category: 'Adventure & Stays',
+    img: '/sam_sand_dunes.png',
     desc: 'Stay in premium, air-conditioned canvas suites showcasing handcrafted sandstone bathrooms, private decks, and five-star hospitality.',
     pricing: 'From ₹5,500 / night',
     duration: 'Overnight Stay',
@@ -50,6 +55,7 @@ const EXPERIENCES_DATA = {
   'camel-safari': {
     title: 'Sunset Camel Safari',
     category: 'Adventure & Stays',
+    img: '/guest_camel_ride.png',
     desc: 'Ride into the sunset on a camel caravan across the high sand dunes of Sam, experiencing the traditional nomadic style of Thar travel.',
     pricing: 'From ₹800 / person',
     duration: '1.5 Hours',
@@ -59,6 +65,7 @@ const EXPERIENCES_DATA = {
   'jeep-safari': {
     title: '4x4 Off-Road Jeep Safari',
     category: 'Adventure & Stays',
+    img: '/jeep_safari.png',
     desc: 'An adrenaline-pumping off-road 4x4 Jeep ride over the steep sand dunes of Sam, featuring thrilling drops and high-speed dune bashing.',
     pricing: 'From ₹1,500 / jeep',
     duration: '1 Hour',
@@ -68,6 +75,7 @@ const EXPERIENCES_DATA = {
   'stargazing': {
     title: 'Thar Stargazing Wilderness',
     category: 'Adventure & Stays',
+    img: '/stargazing.png',
     desc: 'Explore the night sky away from light pollution. Features a professional telescope and a local guide pointing out constellations, planets, and galaxies.',
     pricing: 'From ₹1,200 / person',
     duration: '2 Hours (Night)',
@@ -77,6 +85,7 @@ const EXPERIENCES_DATA = {
   'bonfire': {
     title: 'Desert Camp Bonfire & Stories',
     category: 'Adventure & Stays',
+    img: '/guest_camp_bonfire.png',
     desc: 'Relax around a warm, glowing campfire at night, sharing travel stories, enjoying hot appetizers, and listening to desert folk tunes.',
     pricing: 'Complimentary for camp guests',
     duration: 'Every evening',
@@ -86,6 +95,7 @@ const EXPERIENCES_DATA = {
   'folk-music': {
     title: 'Manganiyar Folk Music Recital',
     category: 'Culture & Arts',
+    img: '/folk_music.png',
     desc: 'Soulful ballads played by hereditary musicians using instruments like the Kamaicha and Khartal. Recounts legends of the Thar desert.',
     pricing: 'Included in packages',
     duration: '1.5 Hours (Evening)',
@@ -95,6 +105,7 @@ const EXPERIENCES_DATA = {
   'kalbelia-dance': {
     title: 'Traditional Kalbelia Dance Show',
     category: 'Culture & Arts',
+    img: '/kalbelia_dance.png',
     desc: 'Witness the mesmerizing, high-energy snake charmer dance performed by nomadic women in swirling, embroidered black skirts.',
     pricing: 'Included in packages',
     duration: '1 Hour (Evening)',
@@ -104,6 +115,7 @@ const EXPERIENCES_DATA = {
   'sunrise-breakfast': {
     title: 'Thar Sunrise Breakfast',
     category: 'Dining & Romance',
+    img: '/guest_dunes_dinner.png',
     desc: 'Watch the desert wake up while sipping fresh coffee and eating hot, freshly prepared breakfasts on a quiet dune peak in the morning light.',
     pricing: 'From ₹1,800 / person',
     duration: '2 Hours (Morning)',
@@ -113,6 +125,7 @@ const EXPERIENCES_DATA = {
   'sunset-high-tea': {
     title: 'Sunset High Tea on Dunes',
     category: 'Dining & Romance',
+    img: '/camel_sunset.png',
     desc: 'A premium afternoon tea setup on high dunes, featuring traditional Rajasthani snacks, fine teas, and biscuits as the sun sets.',
     pricing: 'From ₹1,500 / person',
     duration: '2 Hours (Afternoon)',
@@ -122,6 +135,7 @@ const EXPERIENCES_DATA = {
   'desert-picnic': {
     title: 'Oasis & Desert Picnic',
     category: 'Dining & Romance',
+    img: '/desert_picnic.png',
     desc: 'Enjoy a shaded afternoon picnic near a natural desert oasis or historical ruins, complete with chilled juices, fresh sandwiches, and fruits.',
     pricing: 'From ₹2,000 / person',
     duration: '3 Hours (Mid-day)',
@@ -131,6 +145,7 @@ const EXPERIENCES_DATA = {
   'drone-photography': {
     title: 'Drone & Creative Photography',
     category: 'Culture & Arts',
+    img: '/camel_sunset.png',
     desc: 'A professional photographer captures high-end aerial drone shots and portraits of you on the sand dunes, creating stunning social media content.',
     pricing: 'From ₹4,500 / session',
     duration: '1-2 Hours',
@@ -140,6 +155,7 @@ const EXPERIENCES_DATA = {
   'heritage-walks': {
     title: 'Jaisalmer Fort Heritage Walk',
     category: 'Culture & Arts',
+    img: '/guest_fort_walk.png',
     desc: 'A deep guided walk through the labyrinth streets of the living fort, visiting royal palaces, medieval havelis, and ancient Jain temples.',
     pricing: 'From ₹1,200 / guide',
     duration: '3 Hours',
@@ -149,6 +165,7 @@ const EXPERIENCES_DATA = {
   'food-tours': {
     title: 'Rajasthani Street Food Tour',
     category: 'Culture & Arts',
+    img: '/food_tours.png',
     desc: 'A guided culinary trail through Jaisalmer old town, tasting local specialities like Pyaz Kachori, Ghotua Ladoo, and Makhaniya Lassi.',
     pricing: 'From ₹1,000 / person',
     duration: '2 Hours',
@@ -158,6 +175,7 @@ const EXPERIENCES_DATA = {
   'shopping-tours': {
     title: 'Guided Textile & Handicraft Tour',
     category: 'Culture & Arts',
+    img: '/shopping_tours.png',
     desc: 'Visit verified weavers, stone carvers, and leather artisans, buying authentic local goods directly from the makers at transparent prices.',
     pricing: 'From ₹800 / group',
     duration: '3 Hours',
@@ -207,14 +225,24 @@ export default function ExperiencesHub({ activeId }) {
 
               <div className="section-divider" style={{ margin: '24px 0', width: '80px' }}></div>
 
+              {exp.img && (
+                <div className="exp-detail-image-box" style={{ width: '100%', borderRadius: '12px', overflow: 'hidden', marginBottom: '24px', aspectRatio: '16/9', boxShadow: 'var(--shadow-premium)' }}>
+                  <img 
+                    src={`${import.meta.env.BASE_URL}${exp.img.slice(1)}`} 
+                    alt={exp.title} 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                  />
+                </div>
+              )}
+
               <p className="exp-detail-description-lead">{exp.desc}</p>
               <p className="exp-detail-description-body">{exp.details}</p>
 
               {/* What is included checklist */}
-              <h3 className="exp-highlights-title">Experience Highlights</h3>
+              <h3 className="exp-highlights-title" style={{ marginTop: '32px', marginBottom: '16px', fontSize: '1.25rem', fontWeight: '600' }}>Experience Highlights</h3>
               <ul className="exp-highlights-list">
                 {exp.highlights.map((highlight, index) => (
-                  <li key={index} className="exp-highlight-item">
+                  <li key={index} className="exp-highlight-item" style={{ display: 'flex', gap: '12px', marginBottom: '12px', fontSize: '0.9rem', color: 'var(--color-text)' }}>
                     <Check size={18} className="text-[#C5A059] flex-shrink-0" />
                     <span>{highlight}</span>
                   </li>
@@ -229,8 +257,6 @@ export default function ExperiencesHub({ activeId }) {
                 <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '24px' }}>
                   Add this experience to your custom package or book it as a standalone activity with Moomal Tours.
                 </p>
-
-
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   <a 
@@ -322,19 +348,39 @@ export default function ExperiencesHub({ activeId }) {
             else if (exp.title.includes('Photography')) Icon = Camera;
 
             return (
-              <div key={id} className="experience-hub-card">
-                <div className="card-header-icon-box">
-                  <div className="icon-wrapper">
-                    <Icon size={24} />
+              <div key={id} className="experience-hub-card" style={{ padding: 0, overflow: 'hidden' }}>
+                {exp.img && (
+                  <div className="card-image-box" style={{ width: '100%', aspectRatio: '16/10', overflow: 'hidden', position: 'relative' }}>
+                    <img 
+                      src={`${import.meta.env.BASE_URL}${exp.img.slice(1)}`} 
+                      alt={exp.title} 
+                      className="card-img"
+                    />
+                    <span className="card-badge" style={{ position: 'absolute', top: '12px', left: '12px', background: 'rgba(28, 26, 23, 0.85)', backdropFilter: 'blur(4px)', color: 'var(--color-primary-gold)', border: '1px solid rgba(197, 160, 89, 0.3)', padding: '4px 8px', borderRadius: '20px', fontSize: '8px', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                      {exp.category}
+                    </span>
                   </div>
-                  <span className="category-kicker">{exp.category}</span>
-                </div>
-                <div className="card-body-box">
-                  <h3 className="card-title">{exp.title}</h3>
-                  <p className="card-desc">{exp.desc}</p>
-                  <div className="card-footer-box" style={{ justifyContent: 'center' }}>
-                    <a href={`#/experiences/${id}`} className="btn-explore-link">
-                      View Details <ArrowRight size={14} />
+                )}
+                <div className="card-body-box" style={{ padding: '24px', display: 'flex', flexDirection: 'column', flexGrow: 1, justifyContent: 'space-between' }}>
+                  <div>
+                    {!exp.img && (
+                      <div className="card-header-icon-box" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '16px' }}>
+                        <div className="icon-wrapper">
+                          <Icon size={24} />
+                        </div>
+                        <span className="category-kicker">{exp.category}</span>
+                      </div>
+                    )}
+                    <h3 className="card-title" style={{ fontSize: '1.25rem', marginBottom: '12px', fontWeight: '500', color: 'var(--color-text-dark)' }}>{exp.title}</h3>
+                    <p className="card-desc" style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', lineHeight: '1.6', marginBottom: '20px' }}>{exp.desc}</p>
+                  </div>
+                  <div className="card-footer-box" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid var(--color-border)', paddingTop: '16px' }}>
+                    <div>
+                      <span style={{ display: 'block', fontSize: '9px', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 'bold' }}>Pricing</span>
+                      <span style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--color-primary-gold)' }}>{exp.pricing.replace('From ', '')}</span>
+                    </div>
+                    <a href={`#/experiences/${id}`} className="btn-primary btn-sm-flat" style={{ fontSize: '10px', padding: '6px 12px' }}>
+                      Details <ArrowRight size={12} style={{ marginLeft: '4px' }} />
                     </a>
                   </div>
                 </div>
