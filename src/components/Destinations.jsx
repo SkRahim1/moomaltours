@@ -31,9 +31,9 @@ const DESTINATIONS = [
   },
   {
     id: 'lake',
-    title: 'Sacred Oases of Jaisalmer',
+    title: 'Sacred Oasis of Jaisalmer',
     subtitle: 'Gadisar Lake',
-    img: '/camel_sunset.png',
+    img: '/gadisar_lake.png',
     desc: 'A man-made water reservoir constructed in 1367 AD, framed by artistic shrines, ghats, and yellow sandstone archways (Tillon ki Pol). A tranquil sanctuary in the dry desert.',
     tags: ['Tranquil Boating', 'Migratory Birds', 'Ancient Shrines'],
     icon: ShieldCheck
