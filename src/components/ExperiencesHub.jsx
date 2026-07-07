@@ -260,7 +260,7 @@ export default function ExperiencesHub({ activeId }) {
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   <a 
-                    href={`https://wa.me/919414149876?text=${encodeURIComponent(`Hello Moomal Tours! I would like to book the desert activity: *${exp.title}* (${exp.pricing}). Please share booking dates and availability.`)}`}
+                    href={`https://wa.me/919352803009?text=${encodeURIComponent(`Hello Moomal Tours! I would like to book the desert activity: *${exp.title}* (${exp.pricing}). Please share booking dates and availability.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary"
@@ -376,8 +376,8 @@ export default function ExperiencesHub({ activeId }) {
                   </div>
                   <div className="card-footer-box" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid var(--color-border)', paddingTop: '16px' }}>
                     <div>
-                      <span style={{ display: 'block', fontSize: '9px', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 'bold' }}>Pricing</span>
-                      <span style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--color-primary-gold)' }}>{exp.pricing.replace('From ', '')}</span>
+                      <span style={{ display: 'block', fontSize: '9px', textTransform: 'uppercase', color: 'var(--color-text-muted)', fontWeight: 'bold' }}>Category</span>
+                      <span style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--color-primary-gold)' }}>{exp.category}</span>
                     </div>
                     <a href={`#/experiences/${id}`} className="btn-primary btn-sm-flat" style={{ fontSize: '10px', padding: '6px 12px' }}>
                       Details <ArrowRight size={12} style={{ marginLeft: '4px' }} />

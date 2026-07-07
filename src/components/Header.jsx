@@ -59,14 +59,14 @@ export default function Header({ onOpenPlanner }) {
                 Online Enquiry
               </a>
               <a 
-                href="https://wa.me/919414149876?text=Hello%20Moomal%20Tours!%20I'd%20like%20to%20inquire%20about%20your%20desert%20safari%20and%20tours." 
+                href="https://wa.me/919352803009?text=Hello%20Moomal%20Tours!%20I'd%20like%20to%20inquire%20about%20your%20desert%20safari%20and%20tours." 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="dropdown-link"
               >
                 WhatsApp Chat
               </a>
-              <a href="tel:+919414149876" className="dropdown-link">
+              <a href="tel:+919352803009" className="dropdown-link">
                 Direct Call Us
               </a>
             </div>
@@ -134,13 +134,13 @@ export default function Header({ onOpenPlanner }) {
           <h4 style={{ fontSize: '0.7rem', fontWeight: 'bold', textTransform: 'uppercase', color: 'var(--color-primary-gold)', marginBottom: '4px', letterSpacing: '0.08em' }}>Direct Concierge Desk</h4>
           <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '6px', fontSize: '0.75rem' }}>
             <li>
-              <a href="tel:+919414149876" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-text-muted-light)', textDecoration: 'none' }}>
-                <Phone size={12} className="text-[#C5A059]" /> Call: +91 94141 49876
+              <a href="tel:+919352803009" style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-text-muted-light)', textDecoration: 'none' }}>
+                <Phone size={12} className="text-[#C5A059]" /> Call: +919352803009
               </a>
             </li>
             <li>
               <a 
-                href="https://wa.me/919414149876?text=Hello%20Moomal%20Tours!%20I'd%20like%20to%20inquire%20about%20a%20desert%20safari%20and%20tours." 
+                href="https://wa.me/919352803009?text=Hello%20Moomal%20Tours!%20I'd%20like%20to%20inquire%20about%20a%20desert%20safari%20and%20tours." 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-text-muted-light)', textDecoration: 'none' }}

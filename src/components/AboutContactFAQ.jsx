@@ -26,7 +26,7 @@ export default function AboutContactFAQ({ activeSection }) {
 • Travel Date: ${formData.date}
 • Message: ${formData.message}`;
 
-    const whatsappUrl = `https://wa.me/919414149876?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/919352803009?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
     setFormSubmitted(true);
   };
@@ -111,7 +111,7 @@ export default function AboutContactFAQ({ activeSection }) {
                     <Phone size={22} className="text-[#C5A059] flex-shrink-0" />
                     <div>
                       <strong style={{ display: 'block', fontSize: '0.9rem' }}>Direct Calls & WhatsApp</strong>
-                      <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>+91 94141 49876 (Available 24/7)</span>
+                      <span style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>+919352803009 (Available 24/7)</span>
                     </div>
                   </li>
                   <li style={{ display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
@@ -127,7 +127,7 @@ export default function AboutContactFAQ({ activeSection }) {
                   <h4 style={{ fontWeight: 'bold', marginBottom: '8px' }}>Instant Travel Assistance</h4>
                   <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '16px' }}>Need immediate booking confirmation? Click below to chat directly with our reservation specialist.</p>
                   <a 
-                    href="https://wa.me/919414149876?text=Hello%20Moomal%20Tours!%20I'd%20like%20to%20plan%20a%20Jaisalmer%20trip."
+                    href="https://wa.me/919352803009?text=Hello%20Moomal%20Tours!%20I'd%20like%20to%20plan%20a%20Jaisalmer%20trip."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary"
@@ -253,7 +253,7 @@ export default function AboutContactFAQ({ activeSection }) {
             <div style={{ backgroundColor: 'var(--color-secondary-sand)', border: '1px solid var(--color-border)', padding: '24px', borderRadius: '6px' }}>
               <h4 style={{ fontWeight: 'bold', marginBottom: '8px' }}>Questions about your booking?</h4>
               <p style={{ fontSize: '0.8rem', color: 'var(--color-text-muted)', marginBottom: '16px' }}>Contact our customer desk directly to discuss custom adjustment options, deposits, or cancellation queries.</p>
-              <a href="tel:+919414149876" className="btn-secondary" style={{ fontSize: '11px', padding: '8px 16px' }}>Call Support: +91 94141 49876</a>
+              <a href="tel:+919352803009" className="btn-secondary" style={{ fontSize: '11px', padding: '8px 16px' }}>Call Support: +919352803009</a>
             </div>
           </div>
         );

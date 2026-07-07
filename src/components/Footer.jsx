@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li className="footer-contact-item">
                 <Phone size={18} className="footer-contact-icon" />
-                <span>+91 94141 49876</span>
+                <span>+919352803009</span>
               </li>
               <li className="footer-contact-item">
                 <Mail size={18} className="footer-contact-icon" />

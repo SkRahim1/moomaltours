@@ -3,7 +3,7 @@ import { Calendar, User, Star, Utensils, Shield, ArrowRight, Check, X, Phone, Co
 
 const PACKAGES_DATA = {
   couple: {
-    title: 'Moomal Couple Desert Getaway',
+    title: 'Jaisalmer Couple Tour Package | Romantic Desert Safari',
     tagline: 'Private candlelit dunes and romantic camel caravans under the desert moon.',
     duration: '3 Days / 2 Nights',
     price: '₹12,500 / couple',
@@ -42,7 +42,7 @@ const PACKAGES_DATA = {
     ]
   },
   honeymoon: {
-    title: 'Royal Honeymoon Desert Retreat',
+    title: 'Jaisalmer Honeymoon Package | Luxury Desert Camp & Stargazing',
     tagline: 'The ultimate fairytale escape with flower-decorated suites and private stargazing.',
     duration: '3 Days / 2 Nights',
     price: '₹18,000 / couple',
@@ -81,7 +81,7 @@ const PACKAGES_DATA = {
     ]
   },
   family: {
-    title: 'Thar Heritage Family Safari',
+    title: 'Jaisalmer Family Tour Package | Desert Safari & Heritage Stays',
     tagline: 'Create lifelong memories with heritage walks, desert camps, and thrilling safaris.',
     duration: '3 Days / 2 Nights',
     price: '₹4,500 / person',
@@ -120,7 +120,7 @@ const PACKAGES_DATA = {
     ]
   },
   friends: {
-    title: 'Desert Adventure Friends Getaway',
+    title: 'Jaisalmer Adventure Group Tour | 4x4 Jeep Safari & Quad Biking',
     tagline: 'Thrilling 4x4 dune bashing, quad biking, and midnight bonfires under the stars.',
     duration: '3 Days / 2 Nights',
     price: '₹3,800 / person',
@@ -159,7 +159,7 @@ const PACKAGES_DATA = {
     ]
   },
   corporate: {
-    title: 'Custom Thar Team Building Safari',
+    title: 'Jaisalmer Corporate Tour | Desert Team Building & Gala Night',
     tagline: 'Foster collaboration with desert camping, team challenges, and gala evenings.',
     duration: '3 Days / 2 Nights',
     price: '₹3,500 / person',
@@ -198,7 +198,7 @@ const PACKAGES_DATA = {
     ]
   },
   'rajasthan-multi-city': {
-    title: 'Grand Rajasthan Heritage Trail',
+    title: 'Rajasthan Heritage Tour Package | Jodhpur, Udaipur & Jaisalmer',
     tagline: 'Discover the palaces of Jodhpur, lakes of Udaipur, and sands of Jaisalmer.',
     duration: '7 Days / 6 Nights',
     price: 'Custom Pricing / Inquire',
@@ -261,7 +261,7 @@ const PACKAGES_DATA = {
     ]
   },
   custom: {
-    title: 'Bespoke Personalized Journey',
+    title: 'Custom Jaisalmer Trip Planner | Tailored Rajasthan Tour',
     tagline: 'Your pace, your choice of stays, and customized desert activities.',
     duration: 'Tailored to you',
     price: 'Custom Quotation',
@@ -318,7 +318,7 @@ export default function PackagesPage({ activeId }) {
 • Price Estimate: ${pkg.price}
 Please share availability and details.`;
       
-      const whatsappUrl = `https://wa.me/919414149876?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/919352803009?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
     };
 
@@ -460,15 +460,15 @@ Please share availability and details.`;
                 <div className="booking-direct-links">
                   <div className="divider-or"><span>OR</span></div>
                   <a 
-                    href={`https://wa.me/919414149876?text=${encodeURIComponent(`Hello Moomal Tours! I'd like to chat about the ${pkg.title} Jaisalmer itinerary.`)}`}
+                    href={`https://wa.me/919352803009?text=${encodeURIComponent(`Hello Moomal Tours! I'd like to chat about the ${pkg.title} Jaisalmer itinerary.`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-outline-whatsapp"
                   >
                     Chat Directly with Expert
                   </a>
-                  <a href="tel:+919414149876" className="btn-outline-call">
-                    Call: +91 94141 49876
+                  <a href="tel:+919352803009" className="btn-outline-call">
+                    Call: +919352803009
                   </a>
                 </div>
 

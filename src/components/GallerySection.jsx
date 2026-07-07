@@ -177,7 +177,7 @@ export default function GallerySection() {
                   Streaming media preview is load-capped. Direct full-length high-definition clips are loaded on request.
                 </p>
                 <a 
-                  href={`https://wa.me/919414149876?text=${encodeURIComponent(`Hello Moomal Tours! I would like to see high-definition videos/recordings of: ${playingVideo.title}`)}`}
+                  href={`https://wa.me/919352803009?text=${encodeURIComponent(`Hello Moomal Tours! I would like to see high-definition videos/recordings of: ${playingVideo.title}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"

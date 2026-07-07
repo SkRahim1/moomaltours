@@ -14,7 +14,7 @@ export default function RoyalExperience() {
 • Preferred Date: ${travelDate}
 Please verify availability for this private dunes luxury experience.`;
     
-    const whatsappUrl = `https://wa.me/919414149876?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919352803009?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -211,15 +211,15 @@ Please verify availability for this private dunes luxury experience.`;
             <div className="booking-direct-links">
               <div className="divider-or"><span>OR</span></div>
               <a 
-                href={`https://wa.me/919414149876?text=${encodeURIComponent(`Hello Moomal Tours! I would like to book the *Moomal Royal Desert Experience*. Please let me know details.`)}`}
+                href={`https://wa.me/919352803009?text=${encodeURIComponent(`Hello Moomal Tours! I would like to book the *Moomal Royal Desert Experience*. Please let me know details.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline-whatsapp"
               >
                 Inquire on WhatsApp
               </a>
-              <a href="tel:+919414149876" className="btn-outline-call">
-                Call Royal Desk: +91 94141 49876
+              <a href="tel:+919352803009" className="btn-outline-call">
+                Call Royal Desk: +919352803009
               </a>
             </div>
           </div>

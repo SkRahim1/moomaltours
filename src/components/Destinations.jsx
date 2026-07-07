@@ -103,7 +103,7 @@ export default function Destinations() {
                     </div>
                     
                     <a 
-                      href={`https://wa.me/919414149876?text=${encodeURIComponent(`Hello Moomal Tours! I'm interested in booking a private guided tour to ${dest.subtitle} (${dest.title}). Could you please send me pricing and details?`)}`}
+                      href={`https://wa.me/919352803009?text=${encodeURIComponent(`Hello Moomal Tours! I'm interested in booking a private guided tour to ${dest.subtitle} (${dest.title}). Could you please send me pricing and details?`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-outline-gold"

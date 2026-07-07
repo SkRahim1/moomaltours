@@ -111,7 +111,7 @@ export default function BuildTourWizard() {
 • Email: ${formData.email}
 ${formData.notes ? `• Custom Requests: ${formData.notes}` : ''}`;
 
-    const whatsappUrl = `https://wa.me/919414149876?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/919352803009?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     setIsSubmitted(true);
   };

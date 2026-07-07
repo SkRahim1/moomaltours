@@ -128,7 +128,7 @@ function App() {
         "@type": "LocalBusiness",
         "name": "Moomal Tours",
         "image": "https://moomaltours.com/logo.png",
-        "telephone": "+919414149876",
+        "telephone": "+919352803009",
         "email": "inquire@moomaltours.com",
         "address": {
           "@type": "PostalAddress",
@@ -222,7 +222,7 @@ function App() {
 
       {/* Floating WhatsApp booking button */}
       <a 
-        href="https://wa.me/919414149876?text=Hello%20Moomal%20Tours!%20I%20would%20like%20to%20enquire%20about%20a%20luxury%20Jaisalmer%20package."
+        href="https://wa.me/919352803009?text=Hello%20Moomal%20Tours!%20I%20would%20like%20to%20enquire%20about%20a%20luxury%20Jaisalmer%20package."
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-float-btn"
